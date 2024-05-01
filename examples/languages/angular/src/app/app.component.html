@@ -97,7 +97,7 @@
   <span>Welcome</span>
 </div>
 
-<div class="content" role="main">
+<div class="content">
   <!-- Connections SDK -->
 
   <h1>
@@ -124,18 +124,17 @@
     </li>
     <li>Paste access token below</li>
   </ol>
-  <div>
-    <input
-      type="text"
+  <div class="inputWrapper">
+    <textarea
       [(ngModel)]="accessToken"
       placeholder="Provide a valid JWT"
-    />
+    ></textarea>
     <button (click)="openConnections()">Start managing connections</button>
   </div>
   <app-codat-connections
     [accessToken]="accessToken"
-    (connection)="onDisconnect($event)"
-    (connection)="onReconnect($event)"
+    (disconnect)="onDisconnect($event)"
+    (reconnect)="onReconnect($event)"
     (close)="closeConnections()"
     (error)="onError($event)"
     *ngIf="connectionsOpen"

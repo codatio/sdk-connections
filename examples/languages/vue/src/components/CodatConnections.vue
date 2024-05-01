@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { ConnectionCallbackArgs, DisconnectCallbackArgs, ErrorCallbackArgs, ReconnectCallbackArgs } from 'https://connections-sdk.codat.io'
+import type { DisconnectCallbackArgs, ErrorCallbackArgs, ReconnectCallbackArgs } from 'https://connections-sdk.codat.io';
 
-import { ref, onMounted } from 'vue'
+import { onMounted, ref } from 'vue';
 
 const props = defineProps<{
   accessToken: string
