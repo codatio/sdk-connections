@@ -1,0 +1,150 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<style>
+  :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .content {
+    display: flex;
+    row-gap: 16px;
+    margin: 82px auto 32px;
+    width: 460px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  ol {
+    margin: 0;
+    display: block;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: #1976d2;
+  }
+
+  a:hover {
+    color: #125699;
+  }
+
+  input {
+    width: 250px;
+  }
+</style>
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Angular Logo"
+    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
+  />
+  <span>Welcome</span>
+</div>
+
+<div class="content">
+  <!-- Connections SDK -->
+
+  <h1>
+    <a
+      target="_blank"
+      rel="noreferrer"
+      href="https://github.com/codatio/sdk-connections/blob/main/examples/angular/README.md"
+      >Connections SDK x Angular</a
+    >
+  </h1>
+  <p>
+    An example of embedding Connections SDK within a brand new Angular project
+  </p>
+
+  <ol>
+    <li>
+      <a
+        href="https://github.com/codatio/sdk-connections/tree/main#generate-an-access-token"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Generate an access token
+      </a>
+    </li>
+    <li>Paste access token below</li>
+  </ol>
+  <div class="inputWrapper">
+    <textarea
+      [(ngModel)]="accessToken"
+      placeholder="Provide a valid JWT"
+    ></textarea>
+    <button (click)="openConnections()">Start managing connections</button>
+  </div>
+  <app-codat-connections
+    [accessToken]="accessToken"
+    (disconnect)="onDisconnect($event)"
+    (reconnect)="onReconnect($event)"
+    (close)="closeConnections()"
+    (error)="onError($event)"
+    *ngIf="connectionsOpen"
+  ></app-codat-connections>
+</div>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
