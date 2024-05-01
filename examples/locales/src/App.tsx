@@ -18,13 +18,23 @@ type localeType = {
 
 const locales: localeType = {
   default: {
-    "banking.connectionDetails.dataTypes": [""],
+    "accounting.connectionDetails.dataTypes": ["Invoices", "Journal entries"],
+    "commerce.connectionDetails.dataTypes": ["Payments", "Orders", "Customers"],
+    "banking.connectionDetails.dataTypes": ["Transactions", "Accounts"],
   },
   fr: {
-    "banking.connectionDetails.dataTypes": [""],
+    "accounting.connectionDetails.dataTypes": ["Factures", "Écritures"],
+    "commerce.connectionDetails.dataTypes": [
+      "Paiements",
+      "Commandes",
+      "Clients",
+    ],
+    "banking.connectionDetails.dataTypes": ["Transactions", "Comptes"],
   },
   es: {
-    "banking.connectionDetails.dataTypes": [""],
+    "accounting.connectionDetails.dataTypes": ["Facturas", "Asientos"],
+    "commerce.connectionDetails.dataTypes": ["Pagos", "Pedidos", "Clientes"],
+    "banking.connectionDetails.dataTypes": ["Transacciones", "Cuentas"],
   },
 };
 
