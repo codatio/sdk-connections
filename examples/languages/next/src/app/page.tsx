@@ -75,13 +75,13 @@ export default function Home() {
           </li>
         </ol>
         <div className={styles.inputWrapper}>
-          <input
+          <textarea
             value={accessToken}
             placeholder="Provide a valid access token"
             onChange={(e) => {
               setAccessToken(e.target.value);
             }}
-          />
+          ></textarea>
           <button onClick={() => setModalOpen(!modalOpen)}>
             {modalOpen ? "Exit" : "Start managing connections"}
           </button>

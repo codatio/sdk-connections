@@ -111,3 +111,14 @@ button:focus:not(:focus-visible) {
 input {
   width: 250px;
 }
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+textarea {
+  min-width: 15rem;
+  min-height: 8rem;
+}

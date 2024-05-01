@@ -55,7 +55,8 @@
         <li>Paste the access token below</li>
       </ol>
       <div class="input-wrapper">
-        <input bind:value={accessToken} placeholder="Provide a valid JWT" />
+        <textarea bind:value={accessToken} placeholder="Provide a valid JWT"
+        ></textarea>
         <button
           on:click={() => {
             modalOpen = true;

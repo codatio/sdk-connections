@@ -87,13 +87,13 @@ function App() {
           </li>
         </ol>
         <div className="input-wrapper">
-          <input
+          <textarea
             value={accessToken}
             placeholder="Provide a valid JWT"
             onChange={(e) => {
               setAccessToken(e.target.value);
             }}
-          />
+          ></textarea>
           <button onClick={() => setModalOpen(!modalOpen)}>
             {modalOpen ? "Exit" : "Start managing connections"}
           </button>
