@@ -8,8 +8,14 @@ This project is an example of using Connections SDK within a brand new Angular a
 
 Install dependencies using `npm install`. Run `ng serve` or `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## CORS settings
+
+For this example to work, the domain it runs on must be included in the list of allowed domains for your client.
+
+See <a href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains" target="_blank">readme guide</a> on setting up CORS.
 
 ## Access token
+
 You need to have generated an access token for the company you want to access.
 
 See <a href="https://github.com/codatio/sdk-connections/tree/main#generate-an-access-token" target="_blank">readme guide</a> on getting an access token.
