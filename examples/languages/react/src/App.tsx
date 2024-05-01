@@ -44,16 +44,23 @@ function App() {
         <ol>
           <li>
             <a
-              href="https://github.com/codatio/sdk-connections/tree/main#generate-an-access-token"
+              href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Set CORS domains
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token"
               target="_blank"
               rel="noreferrer"
             >
               Generate an access token
             </a>
           </li>
-          <li>
-            Paste the access token below
-          </li>
+          <li>Paste the access token below</li>
         </ol>
         <div className="input-wrapper">
           <textarea

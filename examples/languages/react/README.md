@@ -20,7 +20,7 @@ See <a href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domai
 
 You need to have generated an access token for the company you want to access.
 
-See <a href="https://github.com/codatio/sdk-connections/tree/main#generate-an-access-token" target="_blank">readme guide</a> on getting an access token.
+See <a href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token" target="_blank">readme guide</a> on getting an access token.
 
 ## Get started with React
 

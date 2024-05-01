@@ -42,7 +42,16 @@ const handleOnError = (error: ErrorCallbackArgs) => {
       <p>An example of embedding Connections SDK within a brand new create-vue project</p>
       <ol>
         <li>
-          <a href="https://github.com/codatio/sdk-connections/tree/main#generate-an-access-token" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Set CORS domains
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token" target="_blank" rel="noreferrer">
             Generate an access token
           </a>
         </li>

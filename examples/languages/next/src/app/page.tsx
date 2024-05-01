@@ -63,7 +63,16 @@ export default function Home() {
         <ol>
           <li>
             <a
-              href="https://github.com/codatio/sdk-connections/tree/main#generate-an-access-token"
+              href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Set CORS domains
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token"
               target="_blank"
               rel="noreferrer"
             >
