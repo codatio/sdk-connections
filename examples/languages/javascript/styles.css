@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: #f0dc4e;
+  color: #2e302c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 1.5vmin);
+  text-align: center;
+}
+
+input {
+  width: 250px;
+}
+
+.modal-wrapper {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  inset: 0;
+}
+
+.modal {
+  width: 460px;
+  height: 840px;
+  max-height: 95%;
+}
+
+ol {
+  max-width: 50rem;
+}
+
+a,
+p,
+li::marker {
+  color: #2e302c;
+}
+
+li::marker {
+  list-style-position: inside;
+}
+
+textarea {
+  min-height: 6rem;
+  min-width: 14rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+button {
+  min-width: 14rem;
+}

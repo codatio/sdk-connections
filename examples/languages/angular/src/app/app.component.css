@@ -1,0 +1,14 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+textarea {
+  width: 15rem;
+  height: 8rem;
+}
+
+ol {
+  padding-left: 1rem;
+}

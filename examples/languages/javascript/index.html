@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connections SDK x JavaScript</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/codatio/sdk-connections/tree/main/examples/javascript/README.md"
+        >
+          Connections SDK x JavaScript
+        </a>
+      </h1>
+      <p>
+        An example of embedding Connections SDK within a brand new HTML, CSS and
+        JavaScript project
+      </p>
+    </header>
+
+    <div>
+      <ol>
+        <li>
+          <a
+            href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Set CORS domains
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Generate an access token
+          </a>
+        </li>
+        <li>Paste the access token below</li>
+      </ol>
+      <div class="input-wrapper">
+        <textarea
+          id="access-token-input"
+          placeholder="Provide a valid JWT"
+        ></textarea>
+        <button id="modal-button">Start managing connections</button>
+      </div>
+
+      <div class="modal-wrapper">
+        <div id="target" class="modal" />
+      </div>
+    </div>
+    <script type="module" src="./connections-sdk.js" />
+  </body>
+</html>
