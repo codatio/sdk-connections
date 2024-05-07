@@ -1,5 +1,7 @@
 # sdk-connections
 
+[![NPM Version](https://img.shields.io/npm/v/@codat/sdk-connections.svg?style=flat)]()
+
 Give your customers the ability to manage the access permissions they have given you by using our Connections SDK in your front end. This is key from a regulatory perspective, builds trust between you and your customer, and is required by some accounting platforms (e.g. Xero).
 
 [Examples](https://github.com/codatio/sdk-connections/tree/main/examples) | [Full docs](https://docs.codat.io/auth-flow/optimize/connection-management)
