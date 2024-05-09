@@ -21,7 +21,7 @@ See <a href="https://github.com/codatio/sdk-connections/tree/main#generate-acces
 
 ## Get started with Vue
 
-For full instructions on getting started, see our [embedded link documentation](https://docs.codat.io/auth-flow/authorize-embedded-link#get-started).
+For full instructions on getting started, see our [Connections SDK documentation](https://docs.codat.io/auth-flow/optimize/connection-management).
 
 1. **Create a component that mounts the SDK** - you can copy and paste the example <a href="./src/components/CodatConnections.vue" target="_blank">`CodatConnections.vue`</a> file to an appropriate location in your Vue app.
 2. **Conditional steps**
