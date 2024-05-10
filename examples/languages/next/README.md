@@ -22,7 +22,7 @@ See <a href="https://github.com/codatio/sdk-connections/tree/main#generate-acces
 
 ## Get started with Next.js
 
-For full instructions on getting started with Next.js, see our [embedded link documentation](https://docs.codat.io/auth-flow/authorize-embedded-link).
+For full instructions on getting started with Next.js, see our [Connections SDK documentation](https://docs.codat.io/auth-flow/optimize/connection-management).
 
 1. **Create a component that mounts the SDK** - you can copy and paste the example <a href="./src/app/components/CodatConnections.tsx" target="_blank">`CodatConnections.tsx`</a> file to an appropriate location in your Next.js app.
 

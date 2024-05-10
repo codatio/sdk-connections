@@ -1,6 +1,6 @@
 # An example project featuring different locale support
 
-As part of the options endpoint, a large amount of the text in embedded link can be overridden. One application of this would be partial support for different language locales, allowing you to support users in different geographies.
+As part of the `options` endpoint, some text in the Connections UI can be overridden. One application of this would be partial support for different language locales, allowing you to support users in different geographies.
 
 ## Running this project
 
@@ -26,4 +26,4 @@ See <a href="https://github.com/codatio/sdk-connections/tree/main#generate-acces
 
 ## Get started with React
 
-For full instructions on getting started with React, see our [embedded link documentation](https://docs.codat.io/auth-flow/authorize-embedded-link).
+For full instructions on getting started with React, see our [Connections SDK documentation](https://docs.codat.io/auth-flow/optimize/connection-management).

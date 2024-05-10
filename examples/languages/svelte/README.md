@@ -24,7 +24,7 @@ See <a href="https://github.com/codatio/sdk-connections/tree/main#generate-acces
 
 ## Get started with Svelte
 
-For full instructions on getting started with Svelte, see our [embedded link documentation](https://docs.codat.io/auth-flow/authorize-embedded-link).
+For full instructions on getting started with Svelte, see our [Connections SDK documentation](https://docs.codat.io/auth-flow/optimize/connection-management).
 
 1. **Create a component that mounts the SDK** - you can copy and paste the example <a href="./src/lib/CodatConnections.Svelte" target="_blank">`CodatConnections.Svelte`</a> file to an appropriate location in your Svelte app.
 
