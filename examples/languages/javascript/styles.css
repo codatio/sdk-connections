@@ -61,6 +61,7 @@ textarea {
   gap: 1rem;
 }
 
-button {
-  min-width: 14rem;
+.input-wrapper textarea,
+.input-wrapper button {
+  width: 100%;
 }
