@@ -5,7 +5,7 @@ import {
   DisconnectCallbackArgs,
   ErrorCallbackArgs,
   ReconnectCallbackArgs,
-} from "@codat/sdk-connections";
+} from "@codat/sdk-link-types/connections";
 
 import { CodatConnections } from "./components/CodatConnections";
 import { useState } from "react";
@@ -62,7 +62,7 @@ function App() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/codatio/sdk-connections/tree/main/examples/react/README.md"
+            href="https://github.com/codatio/sdk-link-types/tree/main/examples/react/README.md"
           >
             Connections SDK x Create React App
           </a>
@@ -85,7 +85,7 @@ function App() {
         <ol>
           <li>
             <a
-              href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains"
+              href="https://github.com/codatio/sdk-link-types/tree/main#set-cors-domains"
               target="_blank"
               rel="noreferrer"
             >
@@ -94,7 +94,7 @@ function App() {
           </li>
           <li>
             <a
-              href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token"
+              href="https://github.com/codatio/sdk-link-types/tree/main#generate-access-token"
               target="_blank"
               rel="noreferrer"
             >

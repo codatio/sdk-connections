@@ -35,7 +35,7 @@
       <a
         target="_blank"
         rel="noreferrer"
-        href="https://github.com/codatio/sdk-connections/blob/main/examples/svelte/README.md"
+        href="https://github.com/codatio/sdk-link-types/blob/main/examples/svelte/README.md"
       >
         Connections SDK x Svelte
       </a>
@@ -45,7 +45,7 @@
       <ol>
         <li>
           <a
-            href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains"
+            href="https://github.com/codatio/sdk-link-types/tree/main#set-cors-domains"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,7 +54,7 @@
         </li>
         <li>
           <a
-            href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token"
+            href="https://github.com/codatio/sdk-link-types/tree/main#generate-access-token"
             target="_blank"
             rel="noreferrer"
           >

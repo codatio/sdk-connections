@@ -16,13 +16,13 @@ You will also see any lint errors in the console.
 
 For this example to work, the domain it runs on must be included in the list of allowed domains for your client.
 
-See <a href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains" target="_blank">readme guide</a> on setting up CORS.
+See <a href="https://github.com/codatio/sdk-link-types/tree/main#set-cors-domains" target="_blank">readme guide</a> on setting up CORS.
 
 ## Access token
 
 You need to have generated an access token for the company you want to access.
 
-See <a href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token" target="_blank">readme guide</a> on getting an access token.
+See <a href="https://github.com/codatio/sdk-link-types/tree/main#generate-access-token" target="_blank">readme guide</a> on getting an access token.
 
 ## Get started with React
 
