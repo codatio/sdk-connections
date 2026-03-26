@@ -1,6 +1,6 @@
-# sdk-connections
+# sdk-link-types/connections
 
-[![NPM Version](https://img.shields.io/npm/v/@codat/sdk-connections.svg?style=flat)]()
+[![NPM Version](https://img.shields.io/npm/v/@codat/sdk-link-types.svg?style=flat)](https://www.npmjs.com/package/@codat/sdk-link-types)
 
 Give your customers the ability to manage the access permissions they have given you by using our Connections SDK in your front end. This is key from a regulatory perspective, builds trust between you and your customer, and is required by some accounting platforms (e.g. Xero).
 

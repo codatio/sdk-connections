@@ -26,7 +26,7 @@ For full instructions on getting started, see our [Connections SDK documentation
 1. **Create a component that mounts the SDK** - you can copy and paste the example <a href="./src/components/CodatConnections.vue" target="_blank">`CodatConnections.vue`</a> file to an appropriate location in your Vue app.
 2. **Conditional steps**
 
-   1. **Extend your type declarations with our types (if using TS).** - download the <a href="https://github.com/codatio/sdk-conenctions/blob/main/snippets/types.d.ts" target="_blank"> `types.d.ts`</a> file, then copy and paste its contents into a new or existing `.d.ts` file.
+   1. **Extend your type declarations with our types (if using TS).** - download the <a href="https://github.com/codatio/sdk-connections/blob/main/snippets/types.d.ts" target="_blank"> `types.d.ts`</a> file, then copy and paste its contents into a new or existing `.d.ts` file.
 
    3. **Update CSP headers.** If you're using content security policy (CSP) headers, you must edit the headers:
 

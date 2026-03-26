@@ -1,7 +1,7 @@
 import {
   CodatConnectionsProps,
   initCodatConnections,
-} from "@codat/sdk-connections";
+} from "@codat/sdk-link-types/connections";
 import React, { useEffect, useState } from "react";
 
 import ReactDOM from "react-dom/client";

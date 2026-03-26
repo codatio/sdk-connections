@@ -4,7 +4,7 @@ import {
   DisconnectCallbackArgs,
   ErrorCallbackArgs,
   ReconnectCallbackArgs,
-} from "@codat/sdk-connections";
+} from "@codat/sdk-link-types/connections";
 
 import { CodatConnections } from "./components/CodatConnections";
 import logo from "./logo.svg";
