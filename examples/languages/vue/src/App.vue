@@ -33,7 +33,7 @@ const handleOnError = (error: ErrorCallbackArgs) => {
     <header>
       <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
       <h1 class="title">
-        <a target="_blank" rel="noreferrer" href="https://github.com/codatio/sdk-link-types/tree/main/examples/vue/README.md">
+        <a target="_blank" rel="noreferrer" href="https://github.com/codatio/sdk-connections/tree/main/examples/vue/README.md">
           Connections SDK x Vue
         </a>
       </h1>
@@ -43,7 +43,7 @@ const handleOnError = (error: ErrorCallbackArgs) => {
       <ol>
         <li>
           <a
-            href="https://github.com/codatio/sdk-link-types/tree/main#set-cors-domains"
+            href="https://github.com/codatio/sdk-connections/tree/main#set-cors-domains"
             target="_blank"
             rel="noreferrer"
           >
@@ -51,7 +51,7 @@ const handleOnError = (error: ErrorCallbackArgs) => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/codatio/sdk-link-types/tree/main#generate-access-token" target="_blank" rel="noreferrer">
+          <a href="https://github.com/codatio/sdk-connections/tree/main#generate-access-token" target="_blank" rel="noreferrer">
             Generate an access token
           </a>
         </li>

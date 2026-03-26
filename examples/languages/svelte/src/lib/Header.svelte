@@ -25,7 +25,7 @@
   </nav>
 
   <div class="corner">
-    <a href="https://github.com/codatio/sdk-link-types" target="_blank">
+    <a href="https://github.com/codatio/sdk-connections" target="_blank">
       <img src={github} alt="GitHub" />
     </a>
   </div>
